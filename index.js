@@ -40,6 +40,8 @@ console.log(a1, a2, a3, a4);
 
 // 3. Little the chicken had to go back to the coop, so now we're left with three. Let's use color variables of blackAndWhite, black, and pink.
 const [blackAndWhite, ,  black, pink] = farmAnimals.split(" ");
+//commit - tested
+console.log(blackAndWhite, black, pink);
 
 
 // Arrays
