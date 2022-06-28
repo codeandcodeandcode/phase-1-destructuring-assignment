@@ -73,3 +73,7 @@ console.log(nestedName);
 const {song2, song4} = nestedMuppet.album.theMuppetMovie;
 //commit - tested
 console.log(song2);
+
+const {nestedPartner2 = nestedPartner, nestedJob2 = nestedJob}=nestedMuppet;
+//commit - tested
+console.log(nestedJob2);
